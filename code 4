@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	float rad;
+	scanf ("%f",&rad);
+	printf ("Diameter of the circle is:");
+	printf ("%f", 2*rad);
+	printf (" Circumference of the circle is:");
+	printf ("%f", 6.28*rad);
+	printf (" Area of the circle is:");
+	printf ("%f", 3.14*rad*rad);
+	return 0;
+}
